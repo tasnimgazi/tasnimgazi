@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi there 👋
+print("I love you Ahona")
+print(123)
 
-<!--
-**tasnimgazi/tasnimgazi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+x = 10
+y= 20
+print("X=",x,"Y=",y)
 
-Here are some ideas to get you started:
+name = "Ahona"
+age = 19
+print(f"Her name is {name} and her age is {age} ")
+print("I love her\nI will marry her oneday in sha allah")
+print(int(176))
+print(type(int(202)))
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+print(float(2025.25))
+print(type(float(2025.25)))
+print(7/2)#division
+print(5//2)#float division
+#modulus
+print(5%2)
+#multiplication
+print(5*5)
+
+#author Tasnim Gazi
