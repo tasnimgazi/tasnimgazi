@@ -115,5 +115,29 @@ else:
 
 
 
+  # A project of calculating grades
+Name = input("Enter your name:")
+Marks = int(input("Enter your Marks:"))
+if Marks < 0 or Marks > 100:
+    print("Mark is valid")
+else:   
+  
+  print("---------Result--------")
+  print("Name:",Name)
+  
+  if Marks >= 80:
+     print("A+")
+  elif Marks >= 60:
+     print("B")   
+  elif Marks >= 50: 
+     print("C")
+  elif Marks >= 40:
+      print("D")
+  else:
+     print("Fail")    
+     
+
+
+
 
 #author Tasnim Gazi
