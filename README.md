@@ -77,4 +77,17 @@ name = "pakkhi"
 age = 18
 print(f"My name is {name} and my age is {age}") #string interpolation 
 
+# Mini Calculator 
+  
+print("Welcome to Tasnim's Mini Calculator")
+
+Num1 = float(input("Enter the First Number:"))
+Num2 = float(input("Enter the Second Number:"))
+print("Addition:",Num1 + Num2)
+print("Substraction:",Num1 - Num2)
+print("Multipy:",Num1 * Num2)
+print("division:",Num1 / Num2)
+
+
+
 #author Tasnim Gazi
