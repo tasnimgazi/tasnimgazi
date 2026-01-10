@@ -90,4 +90,17 @@ print("division:",Num1 / Num2)
 
 
 
+#combination or , and ,not 
+age = 26
+has_card = False
+vip_pass = False
+if (age >= 18 and has_card) or vip_pass:
+ print("You are Eligable to enter")
+else:
+ print("You are not eligable to enter") 
+
+
+
+
+
 #author Tasnim Gazi
