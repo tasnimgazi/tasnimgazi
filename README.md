@@ -99,6 +99,19 @@ if (age >= 18 and has_card) or vip_pass:
 else:
  print("You are not eligable to enter") 
 
+# if else condition
+exam_pass = True
+interview_pass = False
+
+
+if exam_pass:
+    if interview_pass:
+        print("You can admit")
+    else:
+        print("You failed intervew")
+
+else:
+    print("You failed Exam")
 
 
 
