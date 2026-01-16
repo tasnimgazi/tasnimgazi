@@ -135,7 +135,48 @@ else:
       print("D")
   else:
      print("Fail")    
-     
+
+
+
+
+
+     # guess the number
+import random
+
+# secret = random.randint(1,10)
+
+# guess = int(input("Guess a number between 1 to 10:"))
+
+# if guess == secret :
+#     print("Congratulations! you guessed the number.")
+# else:
+#     print("You are wrong, The number was", secret)    
+print("Welcome to the guess Number Game!")
+
+for round_num in range(1,4):
+
+    print(f"\nRound{round_num}----")
+
+
+    secret_Number = random.randint(1,10)
+    attempts = 0
+
+    while attempts < 3:
+        guess = int(input("Guess the number between 1 ti 10:"))
+        attempts = attempts + 1
+        if guess == secret_Number:
+            print("congratulations! you  guessed the correct number")
+            break
+        elif guess < secret_Number:
+            print("Too low !try again")
+        else:
+            print("Too High!, Try Again" )
+        
+    else:
+        print("Sorry You used all attempts!")
+
+print("\nThank you the Game is Over")
+
 
 
 
